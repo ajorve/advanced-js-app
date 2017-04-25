@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ajorve/advanced-js-app.svg?branch=master)](https://travis-ci.org/ajorve/advanced-js-app)
+[![travis build](https://travis-ci.org/ajorve/advanced-js-app.svg?branch=master)](https://travis-ci.org/ajorve/advanced-js-app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
