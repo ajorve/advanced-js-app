@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-
-    "prop-types": "^15.5.8",
     "eslint": "^3.19.0",
+    "prop-types": "^15.5.8",
     "react": "^15.5.3",
-    "react-dom": "^15.5.3"
+    "react-dom": "^15.5.3",
+    "yarn": "^0.23.4"
   },
   "devDependencies": {
     "eslint-config-standard": "^10.2.1",
