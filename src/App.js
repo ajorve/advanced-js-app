@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import FilterableProductTable from "./FilterableProductTable.js";
+import React from 'react'
+import './App.css'
+import FilterableProductTable from './FilterableProductTable.js'
 
 const PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -9,16 +9,16 @@ const PRODUCTS = [
   {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
   {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
   {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
-];
+]
 
 export default class App extends React.Component {
-    render() {
-        return (
-            <div>
-                <FilterableProductTable
-                    products={PRODUCTS}
+  render () {
+    return (
+      <div>
+        <FilterableProductTable
+          products={PRODUCTS}
                 />
-            </div>
-        );
-    }
+      </div>
+    )
+  }
 }
